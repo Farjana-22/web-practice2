@@ -2,13 +2,14 @@
     margin: 0%;
     padding: 0%;
 }
+
 #image{ 
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     display: block;
     border: 1px solid black;
     border-radius: 50%;
-    margin-top: 4px;
+    
 }
 .black{
     background-color: black;
@@ -24,7 +25,10 @@
 }
 #head2{
     display: flex;
-   gap: 7px;
+   gap: 10px;
+}
+#head2 h4 {
+    margin-top: 6px;
 }
 nav{
     background-color:rgb(108, 107, 107);
@@ -110,6 +114,11 @@ nav{
   border: none;
   border-radius: 6px;
 }
+button{
+    cursor: pointer;
+
+}
+button:hover {background:brown;}
 footer{
     background-color: black;
     margin-bottom: 10px;
